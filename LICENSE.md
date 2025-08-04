@@ -1,6 +1,8 @@
 # PERSONAL USE ONLY LICENSE (v1.0)
 
-**Copyright © 2025 A.W**
+**Copyright © 2025 Trecks**
+
+> Trecks is the online identity of the author. Legal contact available on request.
 
 ---
 
