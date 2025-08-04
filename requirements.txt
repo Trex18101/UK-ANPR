@@ -1,0 +1,8 @@
+opencv-python
+ultralytics
+beautifulsoup4
+requests
+pillow
+flask
+torchvision
+torch
