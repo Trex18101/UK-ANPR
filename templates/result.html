@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Plate Results</title>
+</head>
+<body>
+    <h1>Detected Plates</h1>
+
+    <img src="{{ result_image }}" style="width:400px;"><br><br>
+
+    {% for result in results %}
+        <div style="border:1px solid #ccc; padding:10px; margin:10px;">
+            <h2>Plate: {{ result.plate }}</h2>
+            <img src="{{ result.cropped_image }}" style="width:200px;"><br>
+            <ul>
+                {% for key, value in result.vehicle_info.items() %}
+                    <li><strong>{{ key }}:</strong> {{ value }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    {% endfor %}
+
+    <a href="/">Back to Home</a>
+</body>
+</html>
